@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "rack_status_extras"
   spec.version       = RackStatusExtras::VERSION
   spec.authors       = ["Josh Mills"]
-  spec.email         = ["jmills@covermymeds.com"]
+  spec.email         = ["josh@trueheart78.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Extends Rack::Utils::SYMBOL_TO_STATUS_CODE}
+  spec.description   = %q{Rack::Utils::SYMBOL_TO_STATUS_CODE will now have message + code mashup. Example: :created_201, :not_found_404}
+  spec.homepage      = "https://github.com/trueheart78/rack_status_extras"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

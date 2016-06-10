@@ -6,6 +6,10 @@ class RackStatusExtrasTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert false
+    assert ::Rack::Utils::SYMBOL_TO_STATUS_CODE.include? :created_201
+  end
+
+  def test_it_does_not_break_anything
+    assert ::Rack::Utils::SYMBOL_TO_STATUS_CODE.include? :created
   end
 end
